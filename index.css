@@ -1,4 +1,3 @@
-
 body{
     margin:0;
     padding:0;
@@ -372,7 +371,7 @@ position: absolute;
     color:white;
     z-index:500px;
     margin-top:-210px;
-    margin-left:700px;
+    margin-left:800px;
     font-size:20px;
 }
 .btns2{
@@ -777,6 +776,194 @@ position: absolute;
 /*Footer*/
 footer{
     width:100%;
-    height:800px;
+    height:590px;
     background-color: black;
+    overflow:hidden;
+}
+.fp1 , .fp2 , .fp3 , .fp4{
+    color:white;
+    font-size:17px;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left:100px;
+}
+.fp2{
+    margin-top:-195px;
+    margin-left:400px;
+}
+.fp3{
+    margin-top:-134px;
+    margin-left:700px;
+}
+.fp4{
+    margin-top:-134px;
+    margin-left:1000px;
+}
+.div1 , .div2 , .div3 , .div4{
+    margin-top:20px;
+    margin-left:100px;
+    line-height: 30px;
+}
+.div2{
+    margin-left:400px;
+}
+.div3{
+    margin-left:700px;
+}
+.div4{
+    margin-left:1000px;
+}
+.div1>a , .div2>a , .div3>a , .div4>a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.aspace{
+    border-bottom:1px solid white;
+    visibility: hidden;
+}
+.a1p1 .aspace{
+    width:56px;
+}
+.a1p1:hover>.aspace{
+visibility: visible;
+}
+.a2p1 .aspace{
+    width:130px;
+}
+.a2p1:hover>.aspace{
+    visibility: visible;
+}
+.a3p1 .aspace{
+    width:100px;
+}
+.a3p1:hover>.aspace{
+    visibility: visible;
+}
+.a4p1 .aspace{
+    width:97px;
+}
+.a4p1:hover>.aspace{
+    visibility: visible;
+}
+.a5p1 .aspace{
+    width:115px;
+}
+.a5p1:hover>.aspace{
+    visibility: visible;
+}
+.a1p2 .aspace{
+    width:80px;
+}
+.a1p2:hover>.aspace{
+    visibility: visible;
+}
+.a2p2 .aspace{
+    width:50px;
+}
+.a2p2:hover>.aspace{
+    visibility: visible;
+}
+.a3p2 .aspace{
+    width:135px;
+}
+.a3p2:hover>.aspace{
+    visibility: visible;
+}
+.a1p3 .aspace{
+    width:160px;
+}
+.a1p3:hover>.aspace{
+    visibility: visible;
+}
+.a2p3 .aspace{
+    width:150px;
+}
+.a2p3:hover>.aspace{
+    visibility: visible;
+}
+.a3p3 .aspace{
+    width:200px;
+}
+.a3p3:hover>.aspace{
+    visibility: visible;
+}
+.a1p4 .aspace{
+    width:120px;
+}
+.a1p4:hover>.aspace{
+    visibility: visible;
+}
+.a2p4 .aspace{
+    width:120px;
+}
+.a2p4:hover>.aspace{
+    visibility: visible;
+}
+.a3p4 .aspace{
+    width:105px;
+}
+.a3p4:hover>.aspace{
+    visibility: visible;
+}
+.a4p4 .aspace{
+    width:90px;
+}
+.a4p4:hover>.aspace{
+    visibility: visible;
+}
+.a5p4 .aspace{
+    width:75px;
+}
+.a5p4:hover>.aspace{
+    visibility: visible;
+}
+.sm{
+    margin-left:1000px;
+    margin-top:10px; 
+}
+.sm1{
+    color:white; 
+    font-size:30px;
+    width:50px;
+}
+.sm1:hover{
+    color:rgb(214, 39, 39); 
+}
+.hline{
+    width:95%;
+    border-bottom:1px solid rgb(134, 134, 134);
+    margin-left:30px;
+    margin-top:50px;
+}
+.imgEF{
+    margin-top:40px;
+    margin-left:620px;
+}
+.links{
+    margin-top:30px;
+    margin-left:300px;
+}
+.links> a{ 
+    text-decoration: none;
+    color:white;
+    margin-right:30px;
+    font-size:18px;
+}
+.last-link{
+    margin-left:40px;
+}
+.flag{
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+    margin-top:0px;
+    position:absolute;
+}
+.copyright{
+    color:white;
+    font-size:15px;
+    font-style:italic;
+    margin-left:570px;
+    margin-top:30px;
 }
